@@ -54,8 +54,7 @@ Note that other ways of setting up Python and packages exist. If you are comfort
 2. Create and activate the environment:
 
 ```bash
-uv init
-uv add numpy Pillow pandas matplotlib tqdm torch torchvision jupyter
+uv sync
 source .venv/bin/activate
 ```
 
