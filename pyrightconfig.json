@@ -1,0 +1,23 @@
+{
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "**/node_modules",
+        "**/__pycache__",
+        "src/experimental",
+        "src/typestubs"
+    ],
+    "ignore": [
+        "data"
+    ],
+    "reportMissingImports": "error",
+    "reportMissingTypeStubs": false,
+    "reportAny": false,
+    "reportUnusedCallResult": false,
+    "reportUnknownVariableType": false,
+    "reportUnknownArgumentType": false,
+    "reportConstantRedefinition": false,
+    "reportUnknownMemberType": false,
+    "reportExplicitAny": false
+}

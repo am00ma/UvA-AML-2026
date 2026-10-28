@@ -1,0 +1,25 @@
+[project]
+name = "uva-aml-2026"
+version = "0.1.0"
+description = "Labs for Applied Machine Learning, 2026"
+readme = "README.md"
+authors = [
+    { name = "am00ma", email = "a.mukundan@uva.nl" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "rich>=15.0.0",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
+    "tqdm>=4.70.1",
+]
+
+[project.scripts]
+uva-aml-2026 = "uva_aml_2026:main"
+
+[build-system]
+requires = ["uv_build>=0.13.4,<0.14.0"]
+build-backend = "uv_build"
