@@ -42,7 +42,7 @@ git pull
 3. Test your answer (tests locally from `local_tests/local_tests.pickle`)
 
    ```python
-   am.test_student_function(w1_linear_forward, ["x_input", "P"])
+   am.test_function(w1_linear_forward, ["x_input", "P"])
    ```
 
 4. Check progress as shown above in step 2.
